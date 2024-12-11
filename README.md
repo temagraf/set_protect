@@ -134,13 +134,13 @@ hydra -L users.txt -P pass.txt 192.168.56.104 ssh
 После включения защиты ssh для Fail2Ban падает скорость перебора паролей. По умолчанию после 5 не верных паролей IP адрес хоста блокируется на 10 минут.
 
 **Подбор пароля по ssh (fail2ban - до включения защиты ssh)**
-![Подбор пароля по ssh (fail2ban)](https://github.com/StanislavBaranovskii/13-3-hw/blob/main/img/13-3-2-hydra-fail2ban-off.png "Подбор пароля по ssh (fail2ban - до включения защиты ssh)")
+![Подбор пароля по ssh (fail2ban)](https://github.com/temagraf/set_protect/blob/main/img/13-3-2-hydra-fail2ban-off.png "Подбор пароля по ssh (fail2ban - до включения защиты ssh)")
 
 **Подбор пароля по ssh (fail2ban - после включения защиты ssh)**
-![Подбор пароля по ssh (fail2ban)](https://github.com/StanislavBaranovskii/13-3-hw/blob/main/img/13-3-2-hydra-fail2ban-on.png "Подбор пароля по ssh (fail2ban - полсе включения защиты ssh)")
+![Подбор пароля по ssh (fail2ban)](https://github.com/temagraf/set_protect/blob/main/img/13-3-2-hydra-fail2ban-on.png "Подбор пароля по ssh (fail2ban - полсе включения защиты ssh)")
 
 **Подбор пароля по ssh (suricata)**
-![Подбор пароля по ssh (suricata)](https://github.com/StanislavBaranovskii/13-3-hw/blob/main/img/13-3-2-hydra-suricata.png "Подбор пароля по ssh (suricata)")
+![Подбор пароля по ssh (suricata)](https://github.com/temagraf/set_protect/blob/main/img/13-3-2-hydra-suricata.png "Подбор пароля по ssh (suricata)")
 
 ---
 # Исправления :
